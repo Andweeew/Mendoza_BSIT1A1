@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>
+          Me My Self and I
+        </title>
+        <link rel="stylesheet" href="">
+        <style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+  grid-gap: 2em;
+  padding: 2em;
+  pointer-events: none;
+}
+
+  img {
+    display: block;
+    width: 100%;
+    border-radius: .25em;
+    transition: 250ms 50ms;
+    pointer-events: auto;
+  }
+  
+  &:hover img:not(:hover) {
+    filter: saturate(.2) opacity(.5);
+  }
+
+
+        </style>
+    </head>
+    <body> 
+        <section class="gallery">
+            <img src="../pics/21.jpg">
+            <img src="../pics/22.jpg">
+            <img src="../pics/23.jpg">
+            <img src="../pics/24.jpg">
+            <img src="../pics/25.jpg">
+            <img src="../pics/26.jpg">
+            <img src="../pics/27.jpg">
+            <img src="../pics/28.jpg">
+            <img src="../pics/29.jpg">
+            <img src="../pics/30.jpg">
+            <img src="../pics/31.jpg">
+            <img src="../pics/32.jpg">
+            <img src="../pics/33.jpg">
+            <img src="../pics/34.jpg">
+            <img src="../pics/35.jpg">
+            <img src="../pics/36.jpg">
+            <img src="../pics/37.jpg">
+            <img src="../pics/38.jpg">
+            <img src="../pics/39.jpg">
+            <img src="../pics/40.jpg">
+        </section>
+        </div>
+        <br>
+        <div class="footer">
+
+        </div>       
+     </div>
+    </body>
+</html>
